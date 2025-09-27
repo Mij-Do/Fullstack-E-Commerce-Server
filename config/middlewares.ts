@@ -27,7 +27,16 @@ export default [
       },
     },
   },
-  'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      enabled: true,
+      origin: [
+        'http://localhost:5173',
+        'https://your-vercel-app.vercel.app', 
+      ],
+    },
+  },
   'strapi::poweredBy',
   'strapi::query',
   'strapi::body',

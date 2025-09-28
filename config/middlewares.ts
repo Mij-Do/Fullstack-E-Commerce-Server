@@ -33,7 +33,7 @@ export default [
       enabled: true,
       origin: [
         'http://localhost:5174',
-        'https://your-vercel-app.vercel.app', 
+        'https://fullstack-e-commerce-rose.vercel.app', 
       ],
     },
   },

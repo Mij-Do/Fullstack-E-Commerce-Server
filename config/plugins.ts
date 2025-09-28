@@ -1,5 +1,8 @@
 export default ({ env }) => ({
 // ...
+'users-permissions': {
+    enabled: true,
+},
 upload: {
     config: {
     provider: 'cloudinary',
